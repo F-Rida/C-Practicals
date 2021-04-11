@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-char letter( char ch);
+void letter( char ch);
 void main (void)
 {
 clrscr();
@@ -15,7 +15,7 @@ getch();
 
 //function body
 
-char letter (char ch)
+void letter (char ch)
 {
 n=ch;
 if (n>=65 && n<=90)
